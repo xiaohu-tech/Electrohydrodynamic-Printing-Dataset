@@ -8,4 +8,4 @@ AirPressure_mbar,Applied air pressure,integer,mbar,10 to 40 in steps of 5,Experi
 PrintingTime_ms,Printing duration,integer,ms,100 to 1100 in steps of 100,Experimental input
 JetState,Observed printing jet state,string,none,Stable jetting; Unstable jetting; No jetting,Categorical outcome
 DropletDiameter_um,Measured droplet diameter,float,µm,2.8 to 197.6,Defined for Stable jetting observations
-DropletVolume_pL,Droplet volume,float,pL,Continuous numeric values,
+DropletVolume_pL,Droplet volume,float,pL,11.8 to 105.1,Derived from the diameter
