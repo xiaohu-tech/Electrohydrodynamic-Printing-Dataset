@@ -3,9 +3,8 @@ Num,Sequential observation identifier,integer,none,1 to 203759,Unique for every 
 Bias_V,Bias component of the applied voltage,integer,V,100 to 300 in steps of 10,Experimental input
 Amplitude_V,Amplitude component of the applied voltage,integer,V,200 to 500 in steps of 10,Experimental input
 DutyCycle_pct,Duty cycle of the applied voltage waveform,integer,%,5 to 25 in steps of 5,Experimental input
-Height_um,Printing height,integer,µm,50 to 110 in steps of 10,Original source header used the spelling 'Hight'
+Height_um,Printing height,integer,µm,50 to 110 in steps of 10,Nozzle-to-substrate distance
 AirPressure_mbar,Applied air pressure,integer,mbar,10 to 40 in steps of 5,Experimental input
 PrintingTime_ms,Printing duration,integer,ms,100 to 1100 in steps of 100,Experimental input
 JetState,Observed printing jet state,string,none,Stable jetting; Unstable jetting; No jetting,Categorical outcome
-DropletDiameter_um,Measured droplet diameter,float,µm,2.8 to 197.6,Defined for Stable jetting observations
-DropletVolume_pL,Droplet volume,float,pL,11.8 to 105.1,Derived from the diameter
+DropletDiameter_um,Measured droplet diameter,float,µm,2.8 to 197.6,"Defined for Stable jetting observations; diameters below 10 um were measured by white-light interferometry, all others by image segmentation"
