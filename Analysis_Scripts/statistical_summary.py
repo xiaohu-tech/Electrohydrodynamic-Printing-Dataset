@@ -17,7 +17,7 @@ import sys
 
 import pandas as pd
 
-from data_loading_example import DATA_FILE, load_dataset
+from data_loading import DATA_FILE, load_dataset
 
 
 try:
@@ -36,7 +36,6 @@ NUMERIC_FIELDS = {
     "AirPressure_mbar": ("Air pressure", "mbar"),
     "PrintingTime_ms": ("Printing time", "ms"),
     "DropletDiameter_um": ("Droplet diameter", "µm"),
-    "DropletVolume_pL": ("Droplet volume", "pL"),
 }
 
 MISSING_VALUE_NOTES = {
